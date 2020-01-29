@@ -27,7 +27,7 @@ if __name__ == "__main__":
     while (1):
         print()
         decision = input(
-            "Would you like to encrypt (e), decypt (d) or quit (q)? ")
+            "Would you like to encrypt (e), decrypt (d) or quit (q)? ")
         if decision == "e":
             file_name = input(
                 "Please input the relative file path you wish to encrypt: ")
